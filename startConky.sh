@@ -1,3 +1,2 @@
 #!/bin/bash
-sleep 5
-conky -c /home/pascalwhoop/.config/conky/pascalwhoop/conky.conf
+[[ $HOME/.config/conky.conf/conky.conf ]] && sleep 5 && conky -c $HOME/.config/conky.conf/conky.conf
